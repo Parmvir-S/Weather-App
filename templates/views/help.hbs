@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help</title>
+    <link rel="icon" href="/img/weather.png">
+    <link href="./css/styles.css" rel="stylesheet">
+</head>
+<body>
+    {{>header}}
+    <p>{{message}}</p>
+    <div class="faq">
+        <h2>How do I get the most accurate weather for my location?</h2>
+        <p>By providing your postal code, zip code or by enabling your current location, we can deliver a hyper local forecast as close as 1km/0.6miles using your latitude and longitude.</p>
+        <h2>Why does my current weather observation not reflect the weather outside?</h2>
+        <p>Our current weather conditions are updated every 10 minutes to provide the most accurate weather in your area. To make sure you are seeing the most up to date data, try refreshing the page. It is possible however that on occasion our weather condition might not be reflecting the weather you see outside.</p>
+        <h2>Where can I find more detailed current observations (humidity, wind, visibility etc.)?</h2>
+        <p>Currently, this application only provides the current weather condition, temperature and perceived temperature. In the near future more detailed observations will also be provided.</p>
+    </div>
+    {{>footer}}
+</body>
+</html>

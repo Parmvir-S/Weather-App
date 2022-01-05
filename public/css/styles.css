@@ -1,0 +1,89 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: rgb(233, 219, 219);
+    text-align: center;
+    font-family: monospace;
+}
+
+h1 {
+    font-size: 4em;
+    color: black;
+}
+
+img {
+    width: 250px;
+}
+
+a {
+    color: rgb(91, 204, 219);
+    text-decoration: none;
+    padding: 10px;
+    font-size: 2em;
+}
+
+a:hover {
+    color:rgb(38, 129, 141)
+}
+
+.footer {
+    font-size: 1.25em;
+    color: white
+}
+
+p {
+    font-size: 1.25em;
+    color: black;
+}
+
+hr {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+
+footer {
+    background-color: rgb(38, 129, 141);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#messageOne {
+    font-weight: bold;
+}
+
+#messageTwo {
+    color: black
+}
+
+input {
+    width: 30%;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+button {
+    margin-top: 2%;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+    background-color: rgb(38, 129, 141);
+    color: white;
+    border-style: none;
+}
+
+button:hover {
+    background-color:rgb(97, 199, 212)
+}
+
+ol{
+    text-decoration: none;
+    font-size: 1.25em;
+}

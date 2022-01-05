@@ -10,9 +10,13 @@ const getForecast = (location) => {
         messageOne.textContent = data.error
       } else {
         messageOne.textContent = data.location
-        messageTwo.innerHTML = "Weather Condition: " + data.forecastData.description + "</br>" +
-                                 "Current Temperature: " + data.forecastData.temperature + "°C" + "</br>" +
-                                 "Perceived Temperature: " + data.forecastData.feelsLike + "°C";
+        messageTwo.innerHTML = "<strong>Weather Condition:</strong> " + data.forecastData.description + "</br>" +
+                                 "<strong>Current Temperature:</strong> " + data.forecastData.temperature + "°C" + "</br>" +
+                                 "<strong>Perceived Temperature:</strong> " + data.forecastData.feelsLike + "°C" + "</br>" +
+                                 "<strong>Wind Speed:</strong> " + data.forecastData.wind_speed + " Km/h" + "</br>" +
+                                 "<strong>Pressure:</strong> " + data.forecastData.pressure + " Millibar" + "</br>" + 
+                                 "<strong>Humidity:</strong> " + data.forecastData.humidity + "%" + "</br>" +
+                                 "<strong>UV Index:</strong> " + data.forecastData.uv_index;
       }
     });
   });
